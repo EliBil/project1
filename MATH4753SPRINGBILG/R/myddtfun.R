@@ -19,7 +19,7 @@ myddt = function(df,SPECIES){
 
    ddt <- read.csv("DDT.csv")
 
-  newddt <- df %>% filter(SPECIES == {{SPECIES}})
+  newddt <- ddt %>% filter(SPECIES == {{SPECIES}})
 
 
 graph <- ggplot(data=newddt,aes(WEIGHT,LENGTH)) + geom_point(alpha = 1,aes(color=RIVER)) + geom_smooth() + ggtitle("Eli Bilgrien")
