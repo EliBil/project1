@@ -1,0 +1,17 @@
+Package: MATH4753SPRINGBILG
+Type: Package
+Title: Stats package
+Version: 0.1.0
+Author: Eli Bilgrien
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: Unlimited
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Depends:
+Suggests:
+Imports:
+    dplyr,
+    ggplot2
